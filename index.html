@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>dots.ly — Domain for sale</title>
+<meta name="description" content="dots.ly is for sale. Short, brandable, and ready for your next product. Buy it on Atom.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0E1330;--paper:#EEF1F7;--card:#FFFFFF;--blue:#2B4BFF;--coral:#FF5A3C;--muted:#5A6180;--line:#D6DBEA;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#EEF1F7;--paper:#0B0F26;--card:#141A38;--blue:#7C93FF;--coral:#FF7A5E;--muted:#9AA3C7;--line:#262E57}}
+:root[data-theme="dark"]{--ink:#EEF1F7;--paper:#0B0F26;--card:#141A38;--blue:#7C93FF;--coral:#FF7A5E;--muted:#9AA3C7;--line:#262E57}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,"IBM Plex Sans Arabic",system-ui,sans-serif;line-height:1.6;font-size:17px}
+[lang="ar"] body,[lang="ar"] .btn,[lang="ar"] button{font-family:"IBM Plex Sans Arabic",Inter,system-ui,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+.logo{font-family:"Bricolage Grotesque",Inter,sans-serif;font-weight:800;font-size:22px;letter-spacing:-.02em;direction:ltr}
+.logo i{color:var(--coral);font-style:normal}
+.lang{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 16px;font:inherit;font-size:14px;cursor:pointer}
+a:focus-visible,button:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.hero{position:relative;padding:56px 0 72px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background-image:radial-gradient(var(--line) 2px,transparent 2.5px);background-size:28px 28px;-webkit-mask-image:linear-gradient(180deg,#000 30%,transparent 95%);mask-image:linear-gradient(180deg,#000 30%,transparent 95%)}
+.hero .wrap{position:relative}
+.word{font-family:"Bricolage Grotesque",Inter,sans-serif;font-weight:800;font-size:clamp(64px,19vw,208px);line-height:.95;letter-spacing:-.05em;margin:0;direction:ltr;display:flex;align-items:flex-end;flex-wrap:nowrap}
+.dot{display:inline-block;width:.2em;height:.2em;border-radius:50%;background:var(--coral);margin:0 .03em .09em;animation:hop 1.6s cubic-bezier(.3,0,.3,1) 1 .4s both}
+@keyframes hop{0%{transform:translateY(-1.4em)}55%{transform:translateY(0)}70%{transform:translateY(-.25em)}85%{transform:translateY(0)}92%{transform:translateY(-.06em)}100%{transform:translateY(0)}}
+.ly{color:var(--blue)}
+.tag{font-size:clamp(20px,3vw,28px);max-width:30ch;margin:28px 0 8px;font-weight:500}
+.sub{color:var(--muted);max-width:52ch;margin:0 0 32px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;font-weight:600;padding:15px 28px;border-radius:12px;border:2px solid var(--ink);color:var(--ink);transition:transform .15s}
+.btn.main{background:var(--blue);border-color:var(--blue);color:#fff}
+:root[data-theme="dark"] .btn.main{color:#0B0F26}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn.main{color:#0B0F26}}
+.btn:hover{transform:translateY(-2px)}
+section{padding:64px 0;border-top:1px solid var(--line)}
+h2{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:clamp(28px,4vw,40px);letter-spacing:-.02em;line-height:1.15;margin:0 0 28px}
+[lang="ar"] h2{letter-spacing:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.grid>div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px}
+.grid h3{margin:0 0 8px;font-size:19px}
+.grid p{margin:0;color:var(--muted);font-size:16px}
+.uses{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0;list-style:none}
+.uses li{border:1.5px solid var(--ink);border-radius:999px;padding:8px 18px;font-weight:500}
+.steps{margin:0;padding-inline-start:22px;max-width:60ch}
+.steps li{margin-bottom:12px;padding-inline-start:6px}
+.final{text-align:center;padding:80px 0}
+.final h2{margin-bottom:12px}
+.final p{color:var(--muted);margin:0 auto 28px;max-width:46ch}
+footer{padding:28px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line);text-align:center}
+@media (prefers-reduced-motion:reduce){.dot{animation:none}.btn{transition:none}html{scroll-behavior:auto}}
+.ar{display:none}
+[lang="ar"] .en{display:none}
+[lang="ar"] .ar{display:revert}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="logo">dots<i>.</i>ly</div>
+  <button class="lang" id="lang" type="button" aria-label="Switch language"><span class="en">العربية</span><span class="ar">English</span></button>
+</header>
+</div>
+
+<main>
+<div class="hero"><div class="wrap">
+  <h1 class="word" aria-label="dots.ly"><span>dots</span><span class="dot" aria-hidden="true"></span><span class="ly">ly</span></h1>
+  <p class="tag"><span class="en">A short, memorable domain for your next big idea.</span><span class="ar">دومين قصير وسهل التذكر لفكرتك الكبيرة القادمة.</span></p>
+  <p class="sub"><span class="en">dots.ly is for sale. Six letters, one dot, and a name people can say once and remember.</span><span class="ar">الدومين dots.ly معروض للبيع. ستة أحرف ونقطة واحدة واسم يُنطق مرة ويُحفظ للأبد.</span></p>
+  <div class="btns">
+    <a class="btn main" href="https://www.atom.com/view/name/Dots.ly" target="_blank" rel="noopener"><span class="en">Buy dots.ly on Atom</span><span class="ar">اشترِ dots.ly عبر Atom</span></a>
+    <a class="btn" href="#why"><span class="en">Why this name</span><span class="ar">لماذا هذا الاسم</span></a>
+  </div>
+</div></div>
+
+<section id="why"><div class="wrap">
+  <h2><span class="en">Why dots.ly works</span><span class="ar">لماذا dots.ly</span></h2>
+  <div class="grid">
+    <div><h3><span class="en">Short and clear</span><span class="ar">قصير وواضح</span></h3><p><span class="en">Easy to spell, easy to type, easy to say out loud in a meeting or a podcast.</span><span class="ar">سهل الكتابة والنطق، في الاجتماعات أو على الهواء.</span></p></div>
+    <div><h3><span class="en">Reads like a word</span><span class="ar">يُقرأ ككلمة</span></h3><p><span class="en">The name and the .ly ending read together as a single brand, with no extra explanation.</span><span class="ar">الاسم والامتداد .ly يشكّلان علامة واحدة دون شرح إضافي.</span></p></div>
+    <div><h3><span class="en">Visual by nature</span><span class="ar">بصري بطبيعته</span></h3><p><span class="en">Dots give you a ready-made logo idea: connection, data, points on a map, a growing network.</span><span class="ar">النقاط تمنحك فكرة شعار جاهزة: ترابط، بيانات، مواقع، شبكة تنمو.</span></p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2><span class="en">What could dots.ly become?</span><span class="ar">ماذا يمكن أن يكون dots.ly؟</span></h2>
+  <ul class="uses">
+    <li><span class="en">Analytics tool</span><span class="ar">أداة تحليلات</span></li>
+    <li><span class="en">Design platform</span><span class="ar">منصة تصميم</span></li>
+    <li><span class="en">Social network</span><span class="ar">شبكة اجتماعية</span></li>
+    <li><span class="en">Mapping app</span><span class="ar">تطبيق خرائط</span></li>
+    <li><span class="en">Link shortener</span><span class="ar">مختصر روابط</span></li>
+    <li><span class="en">Creative agency</span><span class="ar">وكالة إبداعية</span></li>
+    <li><span class="en">Learning app</span><span class="ar">تطبيق تعليمي</span></li>
+  </ul>
+</div></section>
+
+<section><div class="wrap">
+  <h2><span class="en">How to buy</span><span class="ar">كيف تشتري</span></h2>
+  <ol class="steps">
+    <li><span class="en">Open the dots.ly listing on Atom.</span><span class="ar">افتح صفحة dots.ly على Atom.</span></li>
+    <li><span class="en">Check the price and follow Atom's checkout.</span><span class="ar">راجع السعر وأكمل الدفع عبر Atom.</span></li>
+    <li><span class="en">Receive the domain transfer through Atom.</span><span class="ar">استلم نقل ملكية الدومين عبر Atom.</span></li>
+  </ol>
+</div></section>
+
+<section class="final"><div class="wrap">
+  <h2><span class="en">Make dots.ly yours</span><span class="ar">اجعل dots.ly لك</span></h2>
+  <p><span class="en">Start your brand on a name that is already short, clear, and available to buy today.</span><span class="ar">ابدأ علامتك باسم قصير وواضح ومتاح للشراء اليوم.</span></p>
+  <a class="btn main" href="https://www.atom.com/view/name/Dots.ly" target="_blank" rel="noopener"><span class="en">Go to the listing on Atom</span><span class="ar">اذهب إلى الصفحة على Atom</span></a>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span class="en">dots.ly is listed for sale on Atom.</span><span class="ar">الدومين dots.ly معروض للبيع على منصة Atom.</span></div></footer>
+
+<script>
+(function(){
+  var b=document.getElementById('lang'),h=document.documentElement;
+  b.addEventListener('click',function(){
+    var ar=h.lang!=='ar';
+    h.lang=ar?'ar':'en';h.dir=ar?'rtl':'ltr';
+    document.title=ar?'dots.ly — دومين للبيع':'dots.ly — Domain for sale';
+  });
+})();
+</script>
+</body>
+</html>
